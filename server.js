@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 // Explicit CORS configuration with multiple origins
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://rainbow-donut-17d3f4.netlify.app'], // ⭐ CORRECTED SYNTAX: Array of origins ⭐
+    origin: ['http://localhost:3000', 'https://excelanalytics-sabeer.netlify.app'], // ⭐ CORRECTED SYNTAX: Array of origins ⭐
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
