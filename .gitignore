@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+
+# Environment variables (CRUCIAL for backend security)
+.env
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+npm-debug.log*
